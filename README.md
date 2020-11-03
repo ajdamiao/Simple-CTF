@@ -4,10 +4,7 @@ Dificuldado: Fácil
 
 1- Primeiramente comecei usando o NMAP para scanear portas abertas e os servicos rodando nas portas.
 nmap: ![nmap scan](https://user-images.githubusercontent.com/52061729/97948201-9fd3d480-1d6e-11eb-9380-78987655df0f.png)
-Encontrei as portas:
-21 - FTP
-80 - apache
-2222 - SSH
+Encontrei as portas: 21(FTP), 80(apache) e 2222(SSH)
 
 2- Como tem um servico apache rodando usei o gobuster para achar diretorios do site, mas acabou que nem precisei do resultado e também não me levou a nada.
 3- Enquanto o GoBuster rodava eu tentei entrar no FTP como anonymous e funcionou logo consegui localizar um arquivo chamado ForMitch.txt onde tinha a seguinte mensagem:
